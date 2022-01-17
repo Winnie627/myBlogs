@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Hello World | 努力当一个程序媛</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://winnie627.github.io/myBlogs/favicon.ico?v=1642385489144">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://winnie627.github.io/myBlogs/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://winnie627.github.io/myBlogs">
+        <img class="avatar" src="https://winnie627.github.io/myBlogs/images/avatar.png?v=1642385489144" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://winnie627.github.io/myBlogs">
+        <h1 class="site-title">努力当一个程序媛</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="https://winnie627.github.io/myBlogs" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Hello World</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2022-01-16</span>
+            
+          </div>
+          <div class="post-content">
+            <p>我梦想成为一个技术大牛，无奈缺少聪明的脑瓜。重复和耗时是我能够掌握新知识的办法，但这或许就是最适合我的方法。笨鸟先飞是我的行动基准！脚踏实地，相信梦想一定会实现！<br>
+这个博客计划收录我的所有生活和学习，</p>
+<p>在生活方面，我想做一下自己的日记记录以及读书笔记。如果只读书而缺少输出的话，很快就会忘记书中的内容了，写笔记的过程就当是给自己一个思考的过程了。</p>
+<p>在学习方面，博客暂时计划分成几个板块：</p>
+<ul>
+<li>计算机基础：Python C++ Java编程语言、数据结构与算法(力扣)、计算机网络、操作系统；</li>
+<li>软件开发技能：SpringBoot服务端开发、小程序开发、网页前端开发、安卓开发等；</li>
+<li>机器学习基础：数学基础、斯坦福cs329p课程笔记及作业</li>
+<li>深度学习基础：动手学深度学习Pytorch版</li>
+<li>计算机视觉：图像特征表示、目标检测、语义分割</li>
+<li>自然语言处理：文本文本分类、文本生成</li>
+</ul>
+<p>其实以上板块包括很多很多知识，我大多稍微了解但有没学习透彻。因此我希望能够拆分成许多小目标逐一攻克。给自己一年的事件一边工作一边学习，相信自己可以做到！</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://winnie627.github.io/myBlogs/post/hello-gridea/">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://winnie627.github.io/myBlogs/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
