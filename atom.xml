@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://winnie627.github.io/myBlogs</id>
     <title>努力当一个程序媛</title>
-    <updated>2022-01-17T02:15:16.156Z</updated>
+    <updated>2022-01-17T02:31:03.839Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://winnie627.github.io/myBlogs"/>
     <link rel="self" href="https://winnie627.github.io/myBlogs/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="https://winnie627.github.io/myBlogs/post/hello-world/">
         </link>
         <updated>2022-01-16T07:50:40.000Z</updated>
-        <content type="html"><![CDATA[<p>我梦想成为一个技术大牛，无奈缺少聪明的脑瓜。重复和耗时是我能够掌握新知识的办法，但这或许就是最适合我的方法。笨鸟先飞是我的行动基准！脚踏实地，相信梦想一定会实现！<br>
+        <content type="html"><![CDATA[<!-- more -->
+<p>我梦想成为一个技术大牛，无奈缺少聪明的脑瓜。重复和耗时是我能够掌握新知识的办法，但这或许就是最适合我的方法。笨鸟先飞是我的行动基准！脚踏实地，相信梦想一定会实现！<br>
 这个博客计划收录我的所有生活和学习，</p>
 <p>在生活方面，我想做一下自己的日记记录以及读书笔记。如果只读书而缺少输出的话，很快就会忘记书中的内容了，写笔记的过程就当是给自己一个思考的过程了。</p>
 <p>在学习方面，博客暂时计划分成几个板块：</p>
